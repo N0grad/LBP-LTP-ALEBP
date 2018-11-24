@@ -10,15 +10,6 @@ public class LBP {
 
 		long startTime = System.currentTimeMillis();
 		System.out.println(startTime);
-		
-		// Conversion des images en noir et blanc (bleu domiant)
-		/*File folder = new File(FROMPATH);
-		File[] listOfFiles = folder.listFiles();
-		for (int i = 0; i < listOfFiles.length; i++) {
-			if (!listOfFiles[i].getName().equals("Thumbs.db")) {
-				ConversionEnGris.main(FROMPATH, TOPATH, listOfFiles[i].getName());
-			}
-		}*/
 
 		// Conversion des images en LBP
 		File folder2 = new File(TOPATH);
